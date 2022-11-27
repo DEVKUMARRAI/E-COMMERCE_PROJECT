@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .bg-img{
+    background-image: url("../Mini-Project/img/loginbg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+    height: 100vh;
+    width: 100%;
+  }
+#main{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    background: rgba(0,0,0,0.6);
+    box-shadow: 1px 1px 20px 5px #9ddbc2;
+}
+.box2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.box2 form input{
+    width: 70%;
+    text-align: center;
+    margin: 6px 0;
+    border: 2px solid rgb(168 237 210 / 1); 
+    background: transparent;
+    color: aliceblue;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+::placeholder{
+    color: aliceblue;
+}
+.box2 p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contain{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box1 h2{
+    font-size: 50px;
+    color:rgb(168 237 210 / 1);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.box2 p a{
+    text-decoration: none;
+    color:rgb(168 237 210 / 1);
+    margin-left: 5px;
+}

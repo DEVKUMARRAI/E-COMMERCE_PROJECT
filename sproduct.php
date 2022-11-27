@@ -217,7 +217,7 @@
         smallimg[3].onclick=()=>{
             MainImg.src=smallimg[3].src;
         }
-       
+       Hello 
     </script>
     <script src="./script.js"></script>
   </body>

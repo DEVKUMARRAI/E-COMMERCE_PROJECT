@@ -15,8 +15,8 @@ if (isset($_POST['login'])) {
         if (mysqli_num_rows($result) == 1) {
             $fetch = mysqli_fetch_assoc($result);
             if ($fetch['password'] == $_POST['password']) {
-                $_SESSION['login'] = true;
-                $_SESSION['name'] = $fetch['name'];
+                $_SESSION['login'] == true;
+                $_SESSION['name'] == $fetch['name'];
 
                 echo "<script> alert('login Sucessfully');</script>";
                 header("refresh:0 ;url= index.php");
@@ -50,8 +50,9 @@ if (isset($_POST['login'])) {
             </div>
             <div class="box box2">
                 <form action="" method="post">
-                    <input type="text" name="username" placeholder="Enter Your Email or Name">
+                    <input type="text" name="username" placeholder="Enter Your Name">
                     <input type="text" name="password" placeholder="Enter Your Password">
+                   
                     <input type="submit" name="login" value="Login">
                     <p> Don't have an Account ? <a href="../Mini-Project/signup1.php"> Sign up</a></p>
                 </form>
